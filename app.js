@@ -16,10 +16,14 @@ getApi();
 const ghibliContainer = document.getElementById("ghibli-cont")
 function createGhibliCard(Ghibli) {
     Ghibli.forEach(data => {
-            ghibliContainer.innerHTML += 
-            `<div>
-                <img src =${data.image}
-            </div>`
-        
+        const div = document.createElement("div")
+        const img = document.createElement("img")
+        const title = document.createElement("h3")
+
+        title.textContent = data.title;
+
+        img.src = data.image
+        div.append(title, img)
+        ghibliContainer.append(div)
     });
 }
