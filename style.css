@@ -7,7 +7,7 @@ img {
 }
 
 #ghibli-cont {
-  display:flex;
+  display: flex;
   max-width: 300px;
   justify-content: center;
 }
