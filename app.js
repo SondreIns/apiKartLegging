@@ -27,3 +27,13 @@ function createGhibliCard(Ghibli) {
     ghibliContainer.append(div);
   });
 }
+
+setTimeout((e) => {
+  console.log("5sek");
+}, 5000);
+
+setInterval((e) => {
+  console.log("1sek");
+}, 1000);
+
+
