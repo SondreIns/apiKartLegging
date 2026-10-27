@@ -1,3 +1,13 @@
+body {
+  background-color: cornflowerblue;
+}
+
 img {
-    width: 200px;
+  width: 200px;
+}
+
+#ghibli-cont {
+  display:flex;
+  max-width: 300px;
+  justify-content: center;
 }
