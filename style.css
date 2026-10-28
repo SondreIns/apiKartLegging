@@ -8,6 +8,5 @@ img {
 
 #ghibli-cont {
   display: flex;
-  max-width: 300px;
   justify-content: center;
 }
